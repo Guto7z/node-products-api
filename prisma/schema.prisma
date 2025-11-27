@@ -16,7 +16,7 @@ datasource db {
 model Product {
   product_id String @id @default(uuid())
   product_name String
-  product_price Int
+  product_price Float
   created_at DateTime? @default(now())
   updated_at DateTime? @default(now())
 
